@@ -1,0 +1,251 @@
+body {
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 64vh;
+}
+
+p.truncar-2l {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#top
+{
+    height: 1000px;
+    width: 100px;
+    left: 100000000px;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+  
+  html::-webkit-scrollbar-track {
+    background: #fff;
+}
+  
+html::-webkit-scrollbar-thumb {
+    background: #5caf63;
+    border-radius: 5rem;
+}
+
+.home{
+    width: 98%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+.home-img{
+    
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.home-img:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.home-text{
+    max-width: 37rem;
+}
+.home-text .text-h4{
+font-size: 1.8rem;
+color: rgb(141, 197, 141);
+margin-bottom: 1rem;
+}
+.home-text .text-h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.home-text p{
+    margin-bottom: 4rem;
+}
+
+.home-img img{
+    width: 94%;
+   margin-left: 180px;
+    left: 50%;
+}
+.icons{
+    position: absolute;
+    bottom: 0%;
+    left: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: -25px;
+    
+
+}
+.icons li{
+    list-style: none;
+}
+.icons li img{
+   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 3rem;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    
+}
+.icons li img:hover{
+    background: #5caf63;
+    transform: translateY(-10px);
+}
+
+.nav-btn{
+    padding: 10px 20px;
+    background-color: #a8e775 ;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: 700;
+    transform: all 0.5s;
+}
+
+
+.cad-btn{
+    padding: 10px 10px;
+    background-color: rgb(96, 160, 43) ;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 700;
+    transform: all 0.5s;
+}
+
+.carousel{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    bottom: 1rem;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 720px){
+    ul.icons{
+        margin: 0;
+        padding: 0;
+        position: static;
+    }
+}    
+
+.grade-curso{
+    flex-direction: column;
+}
+.curso-texto{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    height: 115px;
+    
+
+}
+.curso-texto h5{
+    font-size: clamp(1rem, 1.8, 2rem);
+    margin-bottom: .5rem;
+    bottom: 5rem;
+
+}
+.curso-texto p{
+    font-size: clamp(.8rem, 1.2rem, 1.25rem);
+    color: rgb(66, 64, 64);
+}
+
+.parceiros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3.4vw;
+    row-gap: 1vw;
+}
+.parceiros-card{
+    display: flex;
+    flex-direction: column;
+    height: clamp(310px, 20vw, 380px);
+    width: clamP(290px, 18vw, 340px);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+.container{
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.container .card{
+position: relative;
+padding: 10px;
+width: 300px;
+background-color: #ffff;
+margin: 20px;
+border: 1px solid black;
+border-radius: 20px;
+overflow: hidden;
+transition: 0.5s;
+text-align: center;
+}
+.container .card img{
+    transition: 0.5s;
+}
+.container .card h1{
+    font-size: 2rem;
+
+}
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+}
+.container .card .content p{
+    color: #333533;
+    transition: 0.5s;
+}
+.container .card .content a{
+position: relative;
+display: inline-block;
+padding: 10px 20px;
+background-color: #5caf63;
+color: #ffff;
+border-radius: 40px;
+text-decoration: none;
+transition: 0.5s;
+}
+.container .card:hover{
+    background-color: #468546;
+    color: #fff;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px #253125;
+    border-color: #468546 ;
+}
+.container .card:hover img{
+    filter: invert(0);
+}
+.container .card:hover p{
+    color: white;
+}
+
+
+
+
+
