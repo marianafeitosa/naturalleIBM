@@ -5,7 +5,9 @@ Este site é um projeto para fins escolares da Etec/Ptech do primeiro ano,para a
 
 Tecnologias ultilizadas: Para a programação do site utilizamos HTML,Css e Java Script no Visual Studio Code (VScode).
 
-Link gitpages: Link do site online: Link dos Wireframes: https://www.canva.com/design/DAFOsdo1Zck/OIeukCV5uK9rRrYqkg_M2w/edit?utm_content=DAFOsdo1Zck&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Link gitpages/Link do site online:https://marianafeitosa.github.io/naturalleIBM/ 
+
+Link dos Wireframes: https://www.canva.com/design/DAFOsdo1Zck/OIeukCV5uK9rRrYqkg_M2w/edit?utm_content=DAFOsdo1Zck&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Perguntas Sobre o Site Público Alvo : O público Alvo de NATURALLE é a comunidade vegana e vegetaria, porém qualquer outra pessoa que não faça parte dessas comunidades podem participar e frequentá-la ,pois NATURALLE é um restaurante para todos.
 
